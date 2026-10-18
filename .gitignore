@@ -1,0 +1,30 @@
+# Root-level .gitignore for WareBot AI
+
+# ── Node / Frontend ────────────────────────────────────────────────
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+
+# ── Python / Backend ───────────────────────────────────────────────
+server/__pycache__/
+server/**/__pycache__/
+server/.venv/
+server/venv/
+server/.env
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+server/.pytest_cache/
+
+# ── OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ─────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
